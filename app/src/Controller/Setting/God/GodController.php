@@ -69,13 +69,44 @@ class GodController extends AbstractController
         ]));
     }
 
-    public function updateGod()
+    public function updateGod(Request $request, int $godId)
     {
-        
+        $input = json_decode($request->getContent(), true);
+
+        $god = $this->getDoctrine()
+            ->getRepository(God::class)
+            ->find($godId);
+
+        $entityManager = $this->getDoctrine()->getManager();
+
+        $god->setName($input['name'])
+            ->setNickname($input['nickname'])
+            ->setDescription($input['description']);
+
+        $entityManager->persist($god);
+
+        $entityManager->flush();
+
+        return new Response(json_encode([
+            'id' => $god->getId(),
+            'name' => $god->getName(),
+            'nickname' => $god->getNickname(),
+            'description' => $god->getDescription()
+        ]));
     }
 
-    public function deleteGod()
+    public function deleteGod(int $godId)
     {
+        $god = $this->getDoctrine()
+            ->getRepository(God::class)
+            ->find($godId);
 
+        $entityManager = $this->getDoctrine()->getManager();
+
+        $entityManager->remove($god);
+
+        $entityManager->flush();
+
+        return true;
     }
 }
