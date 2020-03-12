@@ -57,6 +57,7 @@
       <path value="$PROJECT_DIR$/app/vendor/doctrine/orm" />
       <path value="$PROJECT_DIR$/app/vendor/doctrine/common" />
       <path value="$PROJECT_DIR$/app/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/app/vendor/nelmio/cors-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
