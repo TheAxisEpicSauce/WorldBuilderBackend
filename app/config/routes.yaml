@@ -1,0 +1,20 @@
+list_god:
+    path: /gods
+    controller: App\Controller\Setting\God\GodController::listGod
+    methods: GET
+get_god:
+    path: /gods/{godId}
+    controller: App\Controller\Setting\God\GodController::getGod
+    methods: GET
+create_god:
+    path: /gods
+    controller: App\Controller\Setting\God\GodController::createGod
+    methods: POST
+update_god:
+    path: /gods/{godId}
+    controller: App\Controller\Setting\God\GodController::updateGod
+    methods: PUT
+delete_god:
+    path: /gods/{godId}
+    controller: App\Controller\Setting\God\GodController::deleteGod
+    methods: DELETE
