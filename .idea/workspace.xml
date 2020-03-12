@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d2404f-c6bd-48f8-943b-a657a4044f49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/WorldBuilderBackend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app" beforeDir="false" afterPath="$PROJECT_DIR$/app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Controller/Setting/God/GodController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Controller/Setting/God/GodController.php" afterDir="false" />
     </list>
@@ -334,12 +328,12 @@
       <option name="presentableId" value="Default" />
       <updated>1583435383024</updated>
       <workItem from="1583435384436" duration="8707000" />
-      <workItem from="1584040725772" duration="428000" />
+      <workItem from="1584040725772" duration="722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9135000" />
+    <option name="totallyTimeSpent" value="9429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
